@@ -9,4 +9,4 @@ class Person:
         print(self.fname," ",self.lname," is of age ",self.age)
     
 p1 = Person("deexith","parandaman",45)
-print(p1.provide())
+print(p1.provide(), p1.fname)
